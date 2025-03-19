@@ -36,7 +36,6 @@ export async function verificarAutenticacao() {
       return true;
     } catch (error) {
       console.error(error);
-      
           // Redireciona o usuário para a página de login 'login.html' em caso de erro
       window.location.href = 'login.html';
     }
